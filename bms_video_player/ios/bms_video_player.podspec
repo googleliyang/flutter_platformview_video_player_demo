@@ -5,6 +5,8 @@ Pod::Spec.new do |s|
   s.name             = 'bms_video_player'
   s.version          = '0.0.1'
   s.summary          = 'A new flutter plugin project.'
+  s.dependency 'JPVideoPlayer'
+
   s.description      = <<-DESC
 A new flutter plugin project.
                        DESC

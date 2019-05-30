@@ -6,6 +6,14 @@
       methodChannelWithName:@"bms_video_player"
             binaryMessenger:[registrar messenger]];
   BmsVideoPlayerPlugin* instance = [[BmsVideoPlayerPlugin alloc] init];
+    
+    VideoViewFactory* factory = [[VideoViewFactory alloc] initWithMessenger:registrar.messenger];
+    
+    [registrar registerViewFactory:factory withId:@"plugins.bms_video_player/view"];
+    
+ 
+    
+    
   [registrar addMethodCallDelegate:instance channel:channel];
 }
 

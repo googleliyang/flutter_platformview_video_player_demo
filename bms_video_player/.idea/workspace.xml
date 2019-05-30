@@ -37,8 +37,8 @@
       <file leaf-file-name="BmsVideoPlayer.dart" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/BmsVideoPlayer.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4968">
-              <caret line="184" lean-forward="true" selection-start-line="184" selection-end-line="184" />
+            <state relative-caret-position="270">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -213,6 +213,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="780" y="107" width="1348" height="1625" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="Android Profiler" order="7" show_stripe_button="false" />
       <window_info id="Build Variants" order="2" side_tool="true" />
@@ -313,8 +314,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/BmsVideoPlayer.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4968">
-          <caret line="184" lean-forward="true" selection-start-line="184" selection-end-line="184" />
+        <state relative-caret-position="270">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>

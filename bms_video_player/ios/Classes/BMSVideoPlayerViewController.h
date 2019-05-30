@@ -1,12 +1,10 @@
-//
-//  BMSVideoPlayerViewController.h
-//  Pods
-//
-//  Created by ly on 2019/5/30.
-//
+#import <Flutter/Flutter.h>
 
-#ifndef BMSVideoPlayerViewController_h
-#define BMSVideoPlayerViewController_h
+@interface BMSVideoPlayerViewController : NSObject <FlutterPlatformView>
 
+- (instancetype)initWithWithFrame:(CGRect)frame
+                   viewIdentifier:(int64_t)viewId
+                        arguments:(id _Nullable)args
+                  binaryMessenger:(NSObject<FlutterBinaryMessenger>*)messenger;
 
-#endif /* BMSVideoPlayerViewController_h */
+@end

@@ -1,11 +1,17 @@
 PODS:
   - bms_video_player (0.0.1):
     - Flutter
+    - JPVideoPlayer
   - Flutter (1.0.0)
+  - JPVideoPlayer (3.1.1)
 
 DEPENDENCIES:
   - bms_video_player (from `.symlinks/plugins/bms_video_player/ios`)
   - Flutter (from `.symlinks/flutter/ios`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - JPVideoPlayer
 
 EXTERNAL SOURCES:
   bms_video_player:
@@ -14,8 +20,9 @@ EXTERNAL SOURCES:
     :path: ".symlinks/flutter/ios"
 
 SPEC CHECKSUMS:
-  bms_video_player: f1ee7c3f00729c0f4f4fa3f12da2cd2ceb1e066c
+  bms_video_player: d6dafc0dfeec6da95433f82f1b9ef961501ceb52
   Flutter: 9d0fac939486c9aba2809b7982dfdbb47a7b0296
+  JPVideoPlayer: 234c2fc5c9dfd67b969a5dd8233815eb872472c6
 
 PODFILE CHECKSUM: aff02bfeed411c636180d6812254b2daeea14d09
 

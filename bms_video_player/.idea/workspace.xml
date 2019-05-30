@@ -71,8 +71,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="629" />
-    <option name="y" value="1090" />
+    <option name="x" value="389" />
+    <option name="y" value="125" />
     <option name="width" value="1348" />
     <option name="height" value="1625" />
   </component>
@@ -105,6 +105,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="dart.analysis.tool.window.force.activate" value="false" />
+    <property name="io.flutter.reload.alreadyRun" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
@@ -181,8 +182,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="629" y="1090" width="1348" height="1625" extended-state="0" />
-    <editor active="true" />
+    <frame x="988" y="341" width="1348" height="1625" extended-state="0" />
     <layout>
       <window_info anchor="bottom" id="Android Profiler" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="TODO" order="6" />

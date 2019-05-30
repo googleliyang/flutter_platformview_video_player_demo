@@ -11,6 +11,11 @@ public class BmsVideoPlayerPlugin implements MethodCallHandler {
   /** Plugin registration. */
   public static void registerWith(Registrar registrar) {
     final MethodChannel channel = new MethodChannel(registrar.messenger(), "bms_video_player");
+
+    registrar.platformViewRegistry()
+            .registerViewFactory("plugins.bms_video_player/view", new VideoViewFactory(registrar));
+
+
     channel.setMethodCallHandler(new BmsVideoPlayerPlugin());
   }
 

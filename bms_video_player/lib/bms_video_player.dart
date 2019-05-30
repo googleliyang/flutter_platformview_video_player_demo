@@ -11,3 +11,26 @@ class BmsVideoPlayer {
     return version;
   }
 }
+
+typedef void BmsVideoPlayerCreatedCallback(BmsVideoPlayerController controller);
+
+class BmsVideoPlayerController {
+
+  MethodChannel _channel;
+
+  BmsVideoPlayerController.init(int id) {
+
+    _channel =  new MethodChannel('bms_video_player_$id');
+
+  }
+
+  Future<void> loadUrl(String url) async {
+
+    assert(url != null);
+
+    return _channel.invokeMethod('loadUrl', url);
+
+  }
+
+}
+

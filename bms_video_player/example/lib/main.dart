@@ -48,7 +48,8 @@ class _MyAppState extends State<MyApp> {
     this.viewPlayerController = viewPlayerController;
 
     // this.viewPlayerController.loadUrl("http://jzvd.nathen.cn/c6e3dc12a1154626b3476d9bf3bd7266/6b56c5f0dc31428083757a45764763b0-5287d2089db37e62345123a1be272f8b.mp4");
-    this.viewPlayerController.loadUrl("http://222.207.48.30/hls/startv.m3u8");
+    // this.viewPlayerController.loadUrl("http://222.207.48.30/hls/startv.m3u8");
+    this.viewPlayerController.loadUrl("https://vjs.zencdn.net/v/oceans.mp4");
 
   }
 

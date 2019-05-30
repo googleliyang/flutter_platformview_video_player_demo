@@ -1,0 +1,22 @@
+PODS:
+  - bms_video_player (0.0.1):
+    - Flutter
+  - Flutter (1.0.0)
+
+DEPENDENCIES:
+  - bms_video_player (from `.symlinks/plugins/bms_video_player/ios`)
+  - Flutter (from `.symlinks/flutter/ios`)
+
+EXTERNAL SOURCES:
+  bms_video_player:
+    :path: ".symlinks/plugins/bms_video_player/ios"
+  Flutter:
+    :path: ".symlinks/flutter/ios"
+
+SPEC CHECKSUMS:
+  bms_video_player: f1ee7c3f00729c0f4f4fa3f12da2cd2ceb1e066c
+  Flutter: 9d0fac939486c9aba2809b7982dfdbb47a7b0296
+
+PODFILE CHECKSUM: aff02bfeed411c636180d6812254b2daeea14d09
+
+COCOAPODS: 1.5.3

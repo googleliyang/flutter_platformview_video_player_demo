@@ -4,6 +4,8 @@ version '1.0-SNAPSHOT'
 buildscript {
     repositories {
         google()
+        maven { url 'http://maven.oschina.net/content/groups/public/' }
+
         jcenter()
     }
 
@@ -14,7 +16,10 @@ buildscript {
 
 rootProject.allprojects {
     repositories {
-        google()
+//        mavenCentral()
+         google()
+        maven { url 'http://maven.oschina.net/content/groups/public/' }
+
         jcenter()
     }
 }

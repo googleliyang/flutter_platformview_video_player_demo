@@ -2,15 +2,15 @@ import 'dart:async';
 
 import 'package:flutter/services.dart';
 
-class BmsVideoPlayer {
-  static const MethodChannel _channel =
-      const MethodChannel('bms_video_player');
-
-  static Future<String> get platformVersion async {
-    final String version = await _channel.invokeMethod('getPlatformVersion');
-    return version;
-  }
-}
+//class BmsVideoPlayer {
+//  static const MethodChannel _channel =
+//      const MethodChannel('bms_video_player');
+//
+//  static Future<String> get platformVersion async {
+//    final String version = await _channel.invokeMethod('getPlatformVersion');
+//    return version;
+//  }
+//}
 
 typedef void BmsVideoPlayerCreatedCallback(BmsVideoPlayerController controller);
 
@@ -22,6 +22,12 @@ class BmsVideoPlayerController {
 
     _channel =  new MethodChannel('bms_video_player_$id');
 
+  }
+
+
+  Future<String> get platformVersion async {
+    final String version = await _channel.invokeMethod('getPlatformVersion');
+    return version;
   }
 
   Future<void> loadUrl(String url) async {
